@@ -25,13 +25,13 @@ app.get("/stocks", (req, res) => {
   res.render("stocks/stocks");
 });
 
-app.get("/wenyiren", (req, res) => {
-  res.render("wenyiren/wenyiren");
+app.get("/yimoying", (req, res) => {
+  res.render("yimoying/yimoying");
 });
 
-app.get("/wenyiren/episodes/:episode", (req, res) => {
+app.get("/yimoying/episodes/:episode", (req, res) => {
   const episode = req.params.episode;
-  res.render(`wenyiren/episodes/${episode}`);
+  res.render(`yimoying/episodes/${episode}`);
 });
 
 app.listen(3000, () => {
