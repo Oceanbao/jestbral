@@ -1,10 +1,8 @@
 :root {
     --main-bg-colour: #171918;
-    --main-txt-colour: #f0f0f0;
-    /* --navbar-bg-colour: #33789d; */
-    /* --navbar-bg-colour: #00509d; */
-    /* --navbar-bg-colour: #023e7d; */
-    --navbar-bg-colour: #443C68;
+    --main-txt-colour: #f7f1e7;
+    --navbar-bg-colour: #362c60;
+    /* --navbar-bg-colour: #4f3c64; */
 }
 
 body {
@@ -21,9 +19,12 @@ body {
     font-family: 'Bungee Shade';
     color: var(--main-txt-colour);
 }
+
 .heading {
     font-family: 'ZCOOL QingKe HuangYou';
+    color: var(--main-txt-colour);
 }
+
 a {
     color: var(--main-txt-colour);
 }
@@ -34,5 +35,4 @@ a {
     right: 20px;
     border-radius: 50%;
     display: none;
-    /* background-color: var(--navbar-bg-colour); */
   }
