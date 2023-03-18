@@ -19,6 +19,7 @@ body {
 }
 .navbar-brand {
     font-family: 'Bungee Shade';
+    color: var(--main-txt-colour);
 }
 .heading {
     font-family: 'ZCOOL QingKe HuangYou';
